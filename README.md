@@ -10,13 +10,21 @@
 
 from the root directory in the console, run:
 
+    rake
+
+*note, this is the same as running:*
+
     ruby test/index.rb
 
 ### To test the Javascript tests:
-*(make sure you have [node installed](http://nodejs.org/))**
+*(make sure you have [node installed](http://nodejs.org/))*
 
 from the root directory in the console, run:
 
     npm test
+
+*note, this is the same as running:*
+
+    mocha --reporter nyan
 
     
