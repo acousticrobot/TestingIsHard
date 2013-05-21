@@ -23,8 +23,7 @@ describe('Array', function(){
     it('should return an !== array', function(){
       assert.deepEqual(myArray.unique(),
         // Change this array so the test passes
-          [ 0, 0, 0.0, "0", "zero",
-            zero =(function (){return 0})(),
+          [ 0, "0", "zero",
             false, null, undefined
           ])
     })
