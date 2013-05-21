@@ -19,13 +19,15 @@ Array.prototype.unique = function() {
 };
 
 describe('Array', function(){
-  describe('UniqueArray', function(){
-    it('should return a completely unique array', function(){
-      assert.deepEqual(myArray.unique(),
-                    [ 0, "0", "zero",
 
-                      false, null, undefined
-                    ])
+  describe('UniqueArray', function(){
+    it('should return a !== array', function(){
+      assert.deepEqual(myArray.unique(),
+        // Change this array so the test passes
+        [ 0, 0, 0.0, "0", "zero",
+          zero =(function (){return 0})(),
+          false, null, undefined
+        ]
     })
   })
 })

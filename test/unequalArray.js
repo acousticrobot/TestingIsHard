@@ -20,12 +20,13 @@ Array.prototype.unequal = function() {
 
 describe('Array', function(){
   describe('UnequalArray', function(){
-    it('should return an unequal array', function(){
+    it('should return an != array', function(){
       assert.deepEqual(myArray.unequal(),
-                    [ 0, 0, 0.0, "0", "zero",
-                      zero =(function (){return 0})(),
-                      false, null, undefined
-                    ])
+        // Change this array so the test passes
+          [ 0, 0, 0.0, "0", "zero",
+            zero =(function (){return 0})(),
+            false, null, undefined
+          ])
     })
   })
 })
