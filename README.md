@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/josankapo/TestingIsHard.png)](https://travis-ci.org/josankapo/TestingIsHard) <= GET THIS BUILD TO PASS!
+[![Build Status](https://travis-ci.org/josankapo/TestingIsHard.png)](https://travis-ci.org/josankapo/TestingIsHard)
 
 #Testing Is Hard: TDD/BDD in Ruby and Javascript
 

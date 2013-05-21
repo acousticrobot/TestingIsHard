@@ -23,8 +23,9 @@ describe('Array', function(){
     it('should return an != array', function(){
       assert.deepEqual(myArray.unequal(),
         // Change this array so the test passes
-          [ 0, "zero",
-            null
+          [ 0, 0, 0.0, "0", "zero",
+            zero =(function (){return 0})(),
+            false, null, undefined
           ])
     })
   })
