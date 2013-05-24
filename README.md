@@ -29,19 +29,17 @@ from the root directory in the console, run:
 
 ### What are all these directories and folders?
 
-  * docs/ **The slides from the talk**
-  * node_modules/ **All the node packages (Javascript libraries) installed by npm**
-  * test/ **This is where the magic happens!**
+  * docs/ The slides from the talk
+  * node_modules/ All the node packages (Javascript libraries) installed by npm
+  * test/ This is where the magic happens!
   * .travis.yml Specifies which versions of Ruby and node for [Travis ci](https://travis-ci.org/josankapo/TestingIsHard)
-  * Gemfile **This is where the ruby gems (Ruby libraries) are declared**
-  * Gemfile.lock **This locks the ruby gems down to the installed versions**
-  * package.json **This is where the node packages are declared, the test command to run, and information about this package**
-  * Rakefile **This is where the Ruby test command (handled by Rake) is declared**
-  * README.md **[Markdown](http://daringfireball.net/projects/markdown/) README -- Your reading, dummkopf!**
+  * Gemfile This is where the ruby gems (Ruby libraries) are declared
+  * Gemfile.lock This locks the ruby gems down to the installed versions
+  * package.json This is where the node packages are declared, the test command to run, and information about this package
+  * Rakefile This is where the Ruby test command (handled by Rake) is declared
+  * README.md [Markdown](http://daringfireball.net/projects/markdown/) README -- Your reading, dummkopf!
 
 ### Additional Links
-
- ### Additional Links:
 
 #### Talk Notes
   * [Extreme Progamming](http://www.extremeprogramming.org/rules/unittests.html)
