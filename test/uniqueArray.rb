@@ -4,7 +4,7 @@ class ArrayTest < Test::Unit::TestCase
 
   # Fix this so that it passes the test
   def everyone_has_a_unique_name? people
-    names = people.uniq! {|person| person[:name]}
+    names = people.uniq {|person| person[:name]}
     people.eql? names
   end
 

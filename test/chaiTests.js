@@ -4,11 +4,11 @@
  */
 
 // Mocha assert:
-var assert = require('assert');
+//var assert = require('assert');
 
-//var assert = require('chai').assert;
-//var expect = require('chai').expect;
-//var should = require('chai').should()
+var assert = require('chai').assert;
+var expect = require('chai').expect;
+var should = require('chai').should()
 
 
 var beverages = { tea: [ 'chai', 'matcha', 'oolong' ],
@@ -16,7 +16,7 @@ var beverages = { tea: [ 'chai', 'matcha', 'oolong' ],
 
 describe('Mocha assert method', function(){
     it('should work with or without Chai', function(){
-        assert.equal(beverages["tea"][1],"sumatra");
+        assert.equal(beverages["tea"][1],"matcha");
     })
 });
 
@@ -59,7 +59,7 @@ describe('Chai Lanugage chain', function(){
     it ('should allow for readability and flexible language', function(){
         beverages.should.be.an('object').with.property('tea')
             .that.is.an('array').and.include.members(['chai','matcha']);
-        ['chai','kona','hamburger'].should.be.refreshing;
+        ['chai','kona'].should.be.refreshing;
     })
 })
 

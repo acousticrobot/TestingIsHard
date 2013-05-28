@@ -1,8 +1,8 @@
-var assert = require('assert'),
+var assert = require('assert');
 
-    simpleCase = ["zero", "zero", "one", "zero"],
+var    simpleCase = ["zero", "zero", "one", "zero"];
 
-    myArray = [ 0, 0, 0.0, "0", "zero", [0],
+var    myArray = [ 0, 0, 0.0, "0", "zero", [0],
                 zero =(function (){return 0})(),
                 false, null, undefined
               ];
@@ -29,9 +29,7 @@ describe('Array', function(){
         it('should return an !== array', function(){
             assert.deepEqual(myArray.unequal(),
             // Change this array so the test passes
-            [ 0, 0, 0.0, "0", "zero", [0],
-              zero =(function (){return 0})(),
-              false, null, undefined
+            [ 0, "zero",null
             ]);
         })
     })
