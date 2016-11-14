@@ -59,7 +59,7 @@ from the root directory in the console, run:
   * [Mocha](http://visionmedia.github.io/mocha/) - test framework (async, mocks)
   * [Chai](http://chaijs.com/) - BDD / TDD assertion library
   * [Chai Plugins](http://chaijs.com/plugins) highly extendable
-  * [Jasmine](http://pivotal.github.io/jasmine/) - BDD testing framework
+  * [Jasmine](https://jasmine.github.io/) - BDD testing framework
   * [Travis](Travis-ci.org)
   * [rubygems.rg](http://rubygems.org/gems/)
   * [Capybara with Given/When/Then steps in acceptance testing](http://railsware.com/blog/2012/01/08/capybara-with-givenwhenthen-steps-in-acceptance-testing/)
