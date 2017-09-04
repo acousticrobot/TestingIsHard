@@ -56,7 +56,7 @@ from the root directory in the console, run:
   * [node](http://nodejs.org/)
   * [npm](https://npmjs.org/)
   * [QUint](http://qunitjs.com/) - unit testing framework
-  * [Mocha](http://visionmedia.github.io/mocha/) - test framework (async, mocks)
+  * [Mocha](https://mochajs.org/) - test framework (async, mocks)
   * [Chai](http://chaijs.com/) - BDD / TDD assertion library
   * [Chai Plugins](http://chaijs.com/plugins) highly extendable
   * [Jasmine](https://jasmine.github.io/) - BDD testing framework
